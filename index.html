@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Nova Bank</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+</head>
+<body class="body">
+    <div class="menu">
+        <div class="menu__wrapper wrapper">
+            <div class="menu__info">
+                <div class="menu__logo">
+                    <a href="#"><img src="./images/menu-logo.png" alt="#"></a>
+                    <h3 class="menu__text">Nova | <strong>Bank</strong></h3>
+                </div>
+                <div class="menu__links">
+                    <div class="menu__card">
+                        <ul class="menu__items">
+                            <li> <img src="./images/home-logo.png" alt="#"> <a href="#">Личный кабинет</a> </li>
+                            <li> <img src="./images/analytics-logo.png" alt="#"> <a href="#">Мониторинг счета</a></li>
+                            <li> <img src="./images/shopping-logo.png" alt="#"> <a href="#">Подписка</a></li>
+                            <li> <img src="./images/user-logo.png" alt="#"> <a href="#">Мои контакты</a></li>
+                            <li> <img src="./images/news-logo.png" alt="#"> <a href="#">Новости</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="menu__card">
+                        <ul class="menu__items2">
+                            <li> <img src="./images/settings__logo.png"> <a href="#">Настройки</a></li>
+                            <li> <img src="./images/quit-logo.png"> <a href="#">Выйти</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header__wrapper wrapper">
+            <div class="header__logo">
+                <a href="#"><img src="./images/menu-icon.png" alt="#"></a>
+            </div>
+
+            <div class="header__search">
+                <input type="search" name="search" id="" placeholder="Поиск...">
+            </div>
+
+            <div class="header__balance">
+                <p>Баланс счета:</p> 
+                <h3>1430$</h3>
+            </div>
+
+            <div class="header__account">
+                <a href="#"><img src="./images/notification-logo.png" alt="#"></a>
+                <a href="#"><img src="./images/ivan-logo.png" alt="#" width="40" height="40" class="header__man"></a>
+                <a href="#"><img src="./images/mnogougolnik-header.png" alt="#"></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__wrapper wrapper">
+            <div class="main__info">
+                <h3 class="h3color">Состояние счета:</h3>
+                
+                <a href="#" class="greytext">Август</a>
+                <a href="#" class="greytext">Мониторинг счета</a>
+            </div>
+
+            <div class="main__details">
+                <div class="main__item">
+                    <div class="information">
+                        <img src="./images/coin-logo.png" alt="#" width="20" height="20">
+                        <p class="greytext">На счтеу:</p>
+                        <h3 class="h3color">1430$</h3>
+                    </div>
+
+                    <div class="information">
+                        <img src="./images/arrowUP-logo.png" alt="#" width="20" height="20">
+                        <p class="greytext">Поступления:</p>
+                        <h3 class="h3color">430$</h3>
+                    </div>
+
+                    <div class="information">
+                        <img src="./images/arrowDOWN-logo.png" alt="#" width="20" height="20">
+                        <p class="greytext">Списания:</p>
+                        <h3 class="h3color">60$</h3>
+                    </div>
+
+                    
+                </div>
+                <div class="line">
+                    <div class="main__line line__2"></div>
+                    <div class="main__line line__3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="transaction">
+            <div class="transaction__wrapper wrapper">
+                <div class="transaction__page row--flex">
+                    <h3 class="h3color">Последние транзакции</h3>
+                    <a href="#" class="greytext">Все транзакции</a>
+                </div>
+
+                <div class="transaction__info">
+                    <hr class="hr">
+                    <div class="transaction__item row--flex">
+                        <div class="transaction__block row--flex">
+                            <img src="./images/arrowUP-logo.png" alt="#">
+                            <p class="font--1">Пополнение</p>
+                        </div>
+                        <p class="font--1">04.08.2021 15:54</p>
+                        <p class="font--1"> ID 154015 </p>
+                        <div class="transaction__block row--flex">
+                            <img src="./images/creditcard-logo.png" alt="#">
+                            <p class="font--1">Карта VISA</p>
+                        </div>
+                        <div class="transaction__money">
+                            <p class="font--1">+20$</p>
+                        </div>
+                    </div>
+
+                    <hr class="hr hr--mt">
+                    <div class="transaction__item row--flex">
+                        <div class="transaction__block row--flex">
+                            <img src="./images/arrowDOWN-logo.png" alt="#">
+                            <p class="font--1">Вывод</p>
+                        </div>
+                        <p class="font--1">03.08.2021 23:04</p>
+                        <p class="font--1"> ID 153665 </p>
+                        <div class="transaction__block row--flex">
+                            <img src="./images/creditcard-logo.png" alt="#">
+                            <p class="font--1">Western Union</p>
+                        </div>
+                        <div>
+                            <p class="font--1">-13$</p>
+                        </div>
+                    </div>
+
+                    <hr class="hr hr--mt">
+                    <div class="transaction__item row--flex">
+                        <div class="transaction__block row--flex">
+                            <img src="./images/arrowUP-logo.png" alt="#">
+                            <p class="font--1">Перевод</p>
+                        </div>
+                        <p class="font--1">04.08.2021 15:54</p>
+                        <p class="font--1"> ID 154015 </p>
+                        <div class="transaction__block row--flex">
+                            <img src="./images/sergey-logo.png" alt="#">
+                            <p class="font--1">Sergey Kim</p>
+                        </div>
+                        <div class="transaction__money">
+                            <p class="font--1">+120$</p>
+                        </div>
+                    </div>
+
+                    <hr class="hr hr--mt">
+                    <div class="transaction__item row--flex">
+                        <div class="transaction__block row--flex">
+                            <img src="./images/arrowDOWN-logo.png" alt="#">
+                            <p class="font--1">Перевод</p>
+                        </div>
+                        <p class="font--1">03.08.2021 23:04</p>
+                        <p class="font--1"> ID 154015 </p>
+                        <div class="transaction__block row--flex">
+                            <img src="./images/sergey-logo.png" alt="#">
+                            <p class="font--1">Sergey Kim</p>
+                        </div>
+                        <div>
+                            <p class="font--1">-85$</p>
+                        </div>
+                    </div>
+
+                    <hr class="hr hr--mt">
+                    <div class="transaction__item row--flex">
+                        <div class="transaction__block row--flex">
+                            <img src="./images/arrowUP-logo.png" alt="#">
+                            <p class="font--1">Бонус</p>
+                        </div>
+                        <p class="font--1">03.08.2021 21:30</p>
+                        <p class="font--1"> ID 153665 </p>
+                        <div class="transaction__block row--flex">
+                            <img src="./images/star-logo.png" alt="#">
+                            <p class="font--1">Бонус от NOVA</p>
+                        </div>
+                        <div class="transaction__money">
+                            <p class="font--1">+100$</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="transaction__bottom row--flex">
+                    <h3 class="greytext">Записи с 1 до 5 из 11 записей</h3>
+                    <div class="transaction__link">
+                        <ul class="transaction__ul">
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#"><img src="./images/arrow-left.png" alt="#"></a>
+                            <a href="#"><img src="./images/arrow-right.png" alt="#"></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="account">
+            <div class="account__wrapper wrapper">
+                <div class="account__logo">
+                    <a href="#"><img src="./images/stngs.png" alt="#"></a>
+                </div>
+
+                <div class="account__info">
+                    <a href="#"><img src="./images/ivan-logo.png" alt="#" width="60" height="60"></a>
+                    <h3 class="h3color">Иван Иванов</h3>
+                </div>
+
+                <div class="account__details">
+                    <p class="greytext">Подписка:</p>
+                    <p class="bluetext">Активна</p>
+                    <hr>
+                    <p class="greytext">Клубный номер:</p>
+                    <p class="bluetext">512</p>
+                </div>
+                <hr class="hr">
+                <div class="account__details">
+                    <p class="bluetext">+998 99 844 45 54</p>
+                    <hr class="hr--ml">
+                    <p class="bluetext">Uzbekistan</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="balance">
+            <div class="balance__wrapper wrapper">
+                <div class="balance__money">
+                    <div class="balance__score">
+                        <div class="balance__img">
+                            <img src="./images/coin-logo.png" alt="">
+                            <p>Баланс счета</p>
+                        </div>
+                        <h3>1430$</h3>
+                    </div>
+                    <div class="balance__buttons">
+                        <button class="btn btn-1"><img src="./images/coinDOWN-logo.png" alt="#">Пополнить</button>
+                        <button class="btn btn-2"><img src="./images/coinUP-logo.png" alt="#">Вывести</button>
+                    </div>
+                </div>
+
+                <div class="balance__contact">
+                    <button class="btn btn-3"><img src="./images/coinRIGHT-logo.png" alt="#">Отправить деньги</button>
+                    <button class="btn btn-4"><img src="./images/contacts-logo.png" alt="#">Контакты</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="news">
+            <div class="news__wrapper wrapper">
+                <div class="news__info row--flex">
+                    <p class="bluetext">Новости</p>
+                    <p class="greytext">Все новости</p>
+                </div>
+                <hr class="hr">
+                <div class="news__details row--flex">
+                    <a href="#"><img src="./images/arrow-left.png" alt="#"></a>
+                    <div class="news__text">
+                        <h3>ВНИМАНИЕ!</h3>
+                        <h3>Каникулы-2021!</h3>
+                        <p class="greytext">04.08.2021</p>
+                    </div>
+                    <a href="#"><img src="./images/arrow-right.png" alt="#"></a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,370 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: IBM;
+    font-size: 10px;
+    background: rgb(244, 243, 248);
+}
+
+h1, h2, h3, ul, li, a, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu{
+    position: absolute;
+    width: 220px;
+    height: 100vh;
+    background: rgb(35, 50, 75);
+}
+
+.wrapper{
+    padding: 18px 28px 18px 28px;
+}
+
+.menu__items>li>a, .menu__logo>h3, .menu__items2>li>a{
+    color: white;
+}
+
+.menu__items>li>a, .menu__items2>li>a{
+    padding-left: 15px;
+    font-size: 0.8rem;
+    transition: all 0.2 ease-in-out;
+}
+
+.menu__items>li, .menu__items2>li{
+    transition: all 0.1s ease-in-out;
+}
+
+.menu__items>li:hover, .menu__items2>li:hover{
+    background: rgb(52, 69, 98);
+    transition: all 0.2s ease-in-out;
+}
+
+.menu__logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menu__logo>h3{
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+.menu__links, .menu__items, .menu__items2{
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.menu__items{
+    height: 200px;
+}
+
+.menu__items2{
+    height: 65px;
+}
+
+.header__wrapper{
+    height: 30px;
+    position: relative;
+    margin-left: 220px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__search>input{
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px grey solid;
+}
+
+.header__balance{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.header__balance>p, .greytext{
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.header__balance>h3, .h3color{
+    font-size: 1.1rem;
+    color: #1e2b41;
+}
+
+.header__account>a{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.header__man{
+    border: 2px solid #64a4e5;
+    border-radius: 50%;
+}
+
+.main__wrapper, .transaction__wrapper, .account__wrapper{
+    border-radius: 15px;
+    background: white;
+    width: 48vw;
+    height: 170px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.main__info, .main__text{
+    padding: 20px 0 0 20px;
+}
+
+.main__info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.information>p{
+    font-size: 1rem;
+}
+
+.information>h3{
+    font-size: 1.2rem;
+}
+
+.line{
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main__line{
+    margin-top: 30px;
+    border: 2px solid black;
+    width: 200px;
+}
+
+.main__item{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.transaction__wrapper{
+    height: 46vh;
+}
+
+.row--flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.transaction__bottom{
+    margin-top: 35px;
+}
+
+.transaction__info{
+    margin-top: 20px;
+}
+
+.font--1{
+    font-size: 0.7rem;
+}
+
+.transaction__block{
+    column-gap: 5px;
+    align-items: center;
+}
+
+.transaction__money>p{
+    font-size: 0.8;
+    color: #5ae5a5;
+    font-weight: bolder;
+}
+
+.hr{
+    margin-bottom: 15px;
+    opacity: 20%;
+}
+
+.hr--mt{
+    margin-top: 15px;
+}
+
+.transaction__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.account__wrapper{
+    margin: 0;
+    width: 23vw;
+    height: 26vh;
+    position: absolute;
+    top: 96px;
+    right: 30px;
+}
+
+.account__logo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.account__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.account__info>a{
+    border: 2px solid #64a4e5;
+    border-radius: 50%;
+}
+
+.account__details{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 10px;
+}
+
+.account__details>hr{
+    height: 10px;
+    opacity: 30%;
+}
+
+.bluetext{
+    color: #1e2b41;
+    font-size: 0.8rem;
+}
+
+.balance__wrapper, .news__wrapper{
+    border-radius: 15px;
+    background: white;
+    margin: 0;
+    width: 23vw;
+    height: 19vh;
+    position: absolute;
+    top: 356px;
+    right: 30px;
+}
+
+.balance__money, .balance__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.balance__img>p{
+    font-size: 0.8rem;
+}
+
+.balance__score>h3{
+    font-size: 1rem;
+}
+
+.balance__score{
+    border-radius: 10px;
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 60px;
+    background: #1e2b41;
+}
+
+.balance__buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 10px;
+}
+
+.btn{
+    width: 110px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn>img{
+    padding-right: 10px;
+}
+
+.btn-1{
+    background: #64a4e5;
+}
+
+.btn-2{
+    background: #959db5;
+}
+
+.balance__contact{
+    margin-top: 20px;
+}
+
+.btn-3, .btn-4{
+    color: #1e2b41;
+    background: white;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+}
+
+.btn-4{
+    margin-left: 5px;
+}
+
+.btn-3{
+    margin-left: 10px;
+    width: 200px;
+}
+
+.news__wrapper{
+    top: 565px;
+    height: 14.5vh;
+}
+
+.news__details{
+    margin-top: 30px;
+}
+
+.news__text{
+    text-align: center;
+}
+
+.news__text>p{
+    margin-top: 10px;
+}
+
+.news__text>h3{
+    font-size: 0.85rem;
+}
